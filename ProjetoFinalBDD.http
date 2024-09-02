@@ -1,0 +1,6 @@
+@ProjetoFinalBDD_HostAddress = http://localhost:5165
+
+GET {{ProjetoFinalBDD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

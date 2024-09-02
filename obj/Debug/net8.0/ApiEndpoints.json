@@ -1,0 +1,182 @@
+[
+  {
+    "ContainingType": "ProjetoFinalBDD.Controllers.PessoaController",
+    "Method": "AddPessoa",
+    "RelativePath": "api/Pessoa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pessoa",
+        "Type": "ProjetoFinalBDD.Models.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoFinalBDD.Controllers.PessoaController",
+    "Method": "UpdatePessoa",
+    "RelativePath": "api/Pessoa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pessoa",
+        "Type": "ProjetoFinalBDD.Models.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoFinalBDD.Controllers.PessoaController",
+    "Method": "GetAllPessoas",
+    "RelativePath": "api/Pessoa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoFinalBDD.Controllers.PessoaController",
+    "Method": "DeletePessoa",
+    "RelativePath": "api/Pessoa/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoFinalBDD.Controllers.PessoaController",
+    "Method": "GetPessoaById",
+    "RelativePath": "api/Pessoa/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoFinalBDD.Controllers.PessoaController",
+    "Method": "GetPessoasByCodigoENome",
+    "RelativePath": "api/Pessoa/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoFinalBDD.Controllers.TelefoneController",
+    "Method": "AddTelefone",
+    "RelativePath": "api/Telefone",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "telefone",
+        "Type": "ProjetoFinalBDD.Models.Telefone",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoFinalBDD.Controllers.TelefoneController",
+    "Method": "UpdateTelefone",
+    "RelativePath": "api/Telefone",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "telefone",
+        "Type": "ProjetoFinalBDD.Models.Telefone",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoFinalBDD.Controllers.TelefoneController",
+    "Method": "DeleteTelefone",
+    "RelativePath": "api/Telefone/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoFinalBDD.Controllers.TelefoneController",
+    "Method": "GetTelefonesByPessoaId",
+    "RelativePath": "api/Telefone/byPessoa/{pessoaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pessoaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoFinalBDD.Controllers.TelefoneController",
+    "Method": "GetTelefoneByCodigoENumero",
+    "RelativePath": "api/Telefone/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numero",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
